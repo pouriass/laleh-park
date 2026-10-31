@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b3027">
+<title>پارک لاله | Laleh Park</title>
+<style>
+:root{--green:#0b3027;--green2:#124638;--gold:#d6b56d;--cream:#f7f3e8;--muted:#c9d5ce}
+*{box-sizing:border-box}body{margin:0;background:var(--green);color:var(--cream);font-family:Tahoma,Arial,sans-serif;line-height:1.8}
+a{color:inherit;text-decoration:none}.wrap{max-width:1050px;margin:auto;padding:22px}
+header{display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid #d6b56d55;padding:8px 0 18px}
+.brand{display:flex;align-items:center;gap:12px}.mark{width:48px;height:48px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:25px}
+.brand strong{display:block;letter-spacing:2px;color:var(--gold);font-size:17px}.brand small{color:var(--muted)}
+button,.btn{border:1px solid var(--gold);border-radius:999px;padding:10px 17px;background:transparent;color:var(--cream);font:inherit;cursor:pointer}
+.hero{text-align:center;padding:66px 14px 48px;background:radial-gradient(ellipse at top,#1a5744 0%,var(--green) 68%)}
+.kicker{color:var(--gold);letter-spacing:2px;font-size:12px}.hero h1{font-size:clamp(30px,6vw,54px);line-height:1.3;margin:12px 0;color:var(--cream)}
+.hero p{max-width:650px;margin:0 auto 24px;color:var(--muted)}
+.actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px}.primary{background:var(--gold);color:#18291f;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin:26px 0}
+.card{background:#ffffff0a;border:1px solid #d6b56d44;border-radius:18px;padding:22px}
+.card .icon{font-size:25px;color:var(--gold)}h2{font-size:23px;color:var(--gold);margin:0 0 12px}h3{margin:6px 0;color:var(--cream)}
+.card p{color:var(--muted);margin:5px 0}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.contact a{display:block;border:1px solid #d6b56d66;padding:15px;border-radius:14px;margin-top:10px}
+.contact a:hover,.btn:hover{background:#ffffff12}
+footer{border-top:1px solid #d6b56d55;margin-top:34px;padding:22px 0;color:var(--muted);text-align:center;font-size:13px}
+.en{display:none}body.english{direction:ltr;font-family:Arial,Tahoma,sans-serif}body.english .fa{display:none}body.english .en{display:initial}body.english .hero p{direction:ltr}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.contact{grid-template-columns:1fr}.hero{padding-top:45px}header{align-items:flex-start}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="brand"><div class="mark">❧</div><div><strong>LALEH PARK</strong><small class="fa">پرتال ارتباط مردمی و اطلاع‌رسانی</small><small class="en">Community & Visitor Portal</small></div></div>
+  <button id="lang" type="button">EN / فارسی</button>
+</header>
+<main>
+<section class="hero">
+  <div class="kicker">TEHRAN · IRAN</div>
+  <h1 class="fa">به پارک لاله خوش آمدید</h1><h1 class="en">Welcome to Laleh Park</h1>
+  <p class="fa">فضایی برای طبیعت، آرامش و زندگی شهری. نظرات و پیشنهادهای شما به بهتر شدن تجربه حضور در پارک کمک می‌کند.</p>
+  <p class="en">A place for nature, relaxation and city life. Your feedback helps us make the park experience better.</p>
+  <div class="actions">
+    <a class="btn primary" href="#contact"><span class="fa">ارتباط با مدیریت</span><span class="en">Contact Management</span></a>
+    <a class="btn" href="#about"><span class="fa">درباره پارک</span><span class="en">About the Park</span></a>
+  </div>
+</section>
+<section id="about">
+  <h2 class="fa">درباره پارک لاله</h2><h2 class="en">About Laleh Park</h2>
+  <div class="grid">
+    <article class="card"><div class="icon">🌳</div><h3 class="fa">فضای سبز و طبیعت</h3><h3 class="en">Green spaces</h3><p class="fa">برای پیاده‌روی، استراحت و لذت بردن از فضای باز.</p><p class="en">For walking, relaxing and enjoying the outdoors.</p></article>
+    <article class="card"><div class="icon">🏛</div><h3 class="fa">فرهنگ و هنر</h3><h3 class="en">Culture & art</h3><p class="fa">پارک لاله در قلب تهران و در نزدیکی مراکز فرهنگی شهر قرار دارد.</p><p class="en">Laleh Park is in central Tehran, near cultural destinations.</p></article>
+    <article class="card"><div class="icon">🤝</div><h3 class="fa">همراهی شهروندان</h3><h3 class="en">Community</h3><p class="fa">مشارکت شما به نگهداری بهتر و پویایی پارک کمک می‌کند.</p><p class="en">Your participation supports the care and vitality of the park.</p></article>
+  </div>
+  <p class="fa" style="color:var(--muted);font-size:13px">تاریخچه تفصیلی، آمار و معرفی امکانات پس از تأیید اطلاعات رسمی مدیریت در این بخش تکمیل می‌شود.</p>
+  <p class="en" style="color:var(--muted);font-size:13px">Detailed history, statistics and facility information can be added after verification by park management.</p>
+</section>
+<section id="contact" class="card">
+  <h2 class="fa">ارتباط با مدیریت پارک</h2><h2 class="en">Contact Park Management</h2>
+  <p class="fa">برای پیام، پیشنهاد یا گزارش موارد مرتبط با پارک از راه‌های زیر استفاده کنید.</p>
+  <p class="en">Use the channels below for messages, suggestions or park-related reports.</p>
+  <div class="contact">
+    <div>
+      <a href="https://wa.me/pouriass" target="_blank" rel="noopener">🟢 WhatsApp — @pouriass</a>
+      <a href="https://ble.ir/GreenSpace" target="_blank" rel="noopener">🔵 بله — GreenSpace</a>
+    </div>
+    <div>
+      <a href="tel:02196034989">☎ تلفن دفتر: 021-96034989</a>
+      <a href="#hours">🕒 <span class="fa">ساعات پاسخگویی: ۷ صبح تا ۶ عصر</span><span class="en">Office hours: 7:00 AM–6:00 PM</span></a>
+    </div>
+  </div>
+  <div id="hours" style="margin-top:14px;color:var(--muted);font-size:13px"><span class="fa">ساعات اعلام‌شده پاسخگویی: هر روز، ۷:۰۰ تا ۱۸:۰۰ (روزهای تعطیل نیازمند تأیید مدیریت).</span><span class="en">Published contact hours: 7:00 AM–6:00 PM (holiday schedule to be confirmed).</span></div>
+</section>
+</main>
+<footer><div>LALEH PARK · TEHRAN</div><div class="fa">با هم، پارک لاله را بهتر می‌سازیم.</div><div class="en">Together, we make Laleh Park better.</div></footer>
+</div>
+<script>
+document.getElementById('lang').addEventListener('click',()=>document.body.classList.toggle('english'));
+</script>
+</body></html>
